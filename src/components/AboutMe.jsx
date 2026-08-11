@@ -175,12 +175,14 @@ function AboutMe() {
                             }`}
                         >
                             <p className="text-xl md:text-2xl font-light">
-                               Full-stack engineer specializing in Java Spring Boot backends and RESTful API design, with hands-on experience
-                                building modern web interfaces using JavaScript and React.
+                                Full-stack developer who builds backends with Java & Spring Boot and interfaces with React —
+                                currently shipping Agentic Ops for a payment gateway at Jio, one internship among a few
+                                where I've architected APIs, distributed systems, and real-time features from scratch.
                             </p>
-                            
+
                             <p className="text-base md:text-lg opacity-90">
-                                I love exploring new technologies and solving complex problems with creative solutions.
+                                No grand mission statement — I just like taking systems apart, figuring out why they
+                                work, and building the ones that don't exist yet.
                             </p>
 
                             

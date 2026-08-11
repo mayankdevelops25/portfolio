@@ -9,14 +9,14 @@ function Projects() {
     const projects = [
         {
             title: 'AI Email Replier',
-            description: 'Built an AI-powered Email Reply Assistant that integrates Google Gemini with a Spring Boot backend and a Chrome Extension to generate context-aware replies directly inside Gmail.',
+            description: 'Built an AI-powered Email Reply Assistant that integrates Google Gemini with a Spring Boot backend and a Chrome Extension to generate context-aware replies directly inside Gmail. Achieved sub-2 second AI response latency using Spring WebFlux and reactive streams, cutting email drafting time by 60–70% in test use cases.',
             tags: ['Java', 'SpringBoot', 'React'],
             link: '', 
             github: 'https://github.com/mayankdevelops25/AI-Email-Replier.git' 
         },
         {
             title: 'WorkQueue',
-            description: ' Designed a distributed background job processing system to execute asynchronous tasks outside the main request–response flow.',
+            description: 'Designed a distributed background job processing system to execute asynchronous tasks outside the main request–response flow. Built RESTful APIs (/enqueue, /metrics) to submit jobs and monitor queue health, enabling real-time observability with a 5-second polling interval.',
             tags: ['Java', 'SpringBoot', 'Redis', 'Maven', 'Docker'],
             link: '', 
             github: 'https://github.com/mayankdevelops25/WorkQueue.git'
@@ -27,6 +27,13 @@ function Projects() {
             tags: ['JavaScript', 'Manifest V3'],
             link: '',
             github: 'https://github.com/mayankdevelops25/Zoho-CRM.git'
+        },
+        {
+            title: 'Guess of the Day',
+            description: 'A daily browser deduction puzzle — tap yes/no question chips to narrow a hidden pool of candidates, then guess in the fewest taps. Streaks are validated server-side on the edge.',
+            tags: ['React 19', 'TypeScript', 'Vite', 'Cloudflare Pages', 'Cloudflare KV'],
+            link: 'https://guessit-dub.pages.dev/',
+            github: 'https://github.com/mayankdevelops25/guessit.git'
         }
     ];
 
